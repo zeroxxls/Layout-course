@@ -248,6 +248,10 @@
     border: none;
 }
 
+body{
+    background-color: black;
+}
+
 ul{
     list-style-type: none;
     padding-left: 0;
@@ -368,4 +372,66 @@ nav ul li:hover{
 
 .mainText a:last-child:hover{
     text-decoration-color: #ffffffc4;
+}
+
+/* Featured Section */
+.featured{
+    background-color: black;
+    padding: 50px 20px 100px;
+}
+
+.featured div{
+    display: flex;
+}
+
+.featured .item{
+    width: 25%;
+    color: #ffff;
+    font-family: Soehne;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+.featured .item:hover p {
+    text-decoration-color: #ffffffc4;
+}
+
+
+.featured h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.featured p{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.divider{
+    margin: 0 20px;
+    border: 1px solid #ffff;
+}
+
+/* ChatGPT section */
+
+.chatGpt{
+    background-color: black;
+    color: #ffff;
+    display: flex;
+    padding: 20px;
+}
+
+.chatGpt img{
+    width: 50%;
+}
+
+.chatGpt h2{
+    font-size: 48px;
+    font-family: Signifier;
+    font-weight: 400;
+}
+
+.chatGpt p{
+    font-size: 18px;
+    font-family: Soehne;
 }
