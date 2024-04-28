@@ -1,437 +1,1341 @@
+/* Thin Signifier */
 
-/*thin Signifier*/
 @font-face {
     font-family: Signifier;
     src: url("./assets/fonts/Test\ Signifier/test-signifier-thin.woff2");
     font-weight: 100;
     font-style: normal;
-}
-
-/*thin-italic Signifier*/
-@font-face {
+  }
+  
+  @font-face {
     font-family: Signifier;
     src: url("./assets/fonts/Test\ Signifier/test-signifier-thin-italic.woff2");
     font-weight: 100;
     font-style: italic;
-}
-
-/*regular Signifier*/
-@font-face {
-    font-family: Signifier;
-    src: url("./assets/fonts/Test\ Signifier/test-signifier-regular.woff2");
-    font-weight: 400;
-    font-style: normal;
-}
-
-/*regular-italic Signifier*/
-@font-face {
-    font-family: Signifier;
-    src: url("./assets/fonts/Test\ Signifier/test-signifier-regular-italic.woff2");
-    font-weight: 400;
-    font-style: italic;
-}
-
-/*medium Signifier*/
-@font-face {
-    font-family: Signifier;
-    src: url("./assets/fonts/Test\ Signifier/test-signifier-medium.woff2");
-    font-weight: 500;
-    font-style: normal;
-}
-
-/*medium-italic Signifier*/
-@font-face {
-    font-family: Signifier;
-    src: url("./assets/fonts/Test\ Signifier/test-signifier-medium-italic.woff2");
-    font-weight: 500;
-    font-style: italic;
-}
-
-/*light Signifier*/
-@font-face {
-    font-family: Signifier;
-    src: url("./assets/fonts/Test\ Signifier/test-signifier-light.woff2");
-    font-weight: 300;
-    font-style: normal;
-}
-
-/*light-italic Signifier*/
-@font-face {
-    font-family: Signifier;
-    src: url("./assets/fonts/Test\ Signifier/test-signifier-light-italic.woff2");
-    font-weight: 300;
-    font-style: italic;
-}
-
-/*extralight Signifier*/
-@font-face {
+  }
+  
+  /* ExtraLight Signifier */
+  
+  @font-face {
     font-family: Signifier;
     src: url("./assets/fonts/Test\ Signifier/test-signifier-extralight.woff2");
     font-weight: 200;
     font-style: normal;
-}
-
-/*extralight-italic Signifier*/
-@font-face {
+  }
+  
+  @font-face {
     font-family: Signifier;
     src: url("./assets/fonts/Test\ Signifier/test-signifier-extralight-italic.woff2");
     font-weight: 200;
     font-style: italic;
-}
-
-/*bold Signifier*/
-@font-face {
+  }
+  
+  /* Light Signifier */
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test\ Signifier/test-signifier-light.woff2");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test\ Signifier/test-signifier-light-italic.woff2");
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  /* Regular Signifier */
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test\ Signifier/test-signifier-regular.woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test\ Signifier/test-signifier-regular-italic.woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /* Medium Signifier */
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test\ Signifier/test-signifier-medium.woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Signifier;
+    src: url("./assets/fonts/Test\ Signifier/test-signifier-medium-italic.woff2");
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  /* Bold Signifier */
+  
+  @font-face {
     font-family: Signifier;
     src: url("./assets/fonts/Test\ Signifier/test-signifier-bold.woff2");
     font-weight: 700;
     font-style: normal;
-}
-
-/*bold-italic Signifier*/
-@font-face {
+  }
+  
+  @font-face {
     font-family: Signifier;
     src: url("./assets/fonts/Test\ Signifier/test-signifier-bold-italic.woff2");
     font-weight: 700;
     font-style: italic;
-}
-
-/*black Signifier*/
-@font-face {
+  }
+  
+  /* Black Signifier */
+  
+  @font-face {
     font-family: Signifier;
     src: url("./assets/fonts/Test\ Signifier/test-signifier-black.woff2");
     font-weight: 900;
     font-style: normal;
-}
-
-/*black-italic Signifier*/
-@font-face {
+  }
+  
+  @font-face {
     font-family: Signifier;
     src: url("./assets/fonts/Test\ Signifier/test-signifier-black-italic.woff2");
     font-weight: 900;
     font-style: italic;
-}
-
-
-/*leicht Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-leicht.woff2");
-    font-weight: 300;
-    font-style: normal;
-}
-
-/*leicht-kursiv Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-leicht-kursiv.woff2");
-    font-weight: 300;
-    font-style: italic;
-}
-
-/*kraftig Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-kraftig.woff2");
-    font-weight: 500;
-    font-style: normal;
-}
-
-/*kraftig-kursiv Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-kraftig-kursiv.woff2");
-    font-weight: 500;
-    font-style: italic;
-}
-
-/*halbfett Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-halbfett.woff2");
-    font-weight: 600;
-    font-style: normal;
-}
-
-/*halbfett-kursiv Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-halbfett-kursiv.woff2");
-    font-weight: 600;
-    font-style: italic;
-}
-
-/*fett Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-fett.woff2");
-    font-weight: 800;
-    font-style: normal;
-}
-
-/*fett-kursiv Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-fett-kursiv.woff2");
-    font-weight: 800;
-    font-style: italic;
-}
-
-/*extraleicht Soehne*/
-@font-face {
+  }
+  
+  /* ExtraLight Soehne */
+  
+  @font-face {
     font-family: Soehne;
     src: url("./assets/fonts/Test\ Söhne/test-soehne-extraleicht.woff2");
     font-weight: 200;
     font-style: normal;
-}
-
-/*extraleicht-kursiv Soehne*/
-@font-face {
+  }
+  
+  @font-face {
     font-family: Soehne;
     src: url("./assets/fonts/Test\ Söhne/test-soehne-extraleicht-kursiv.woff2");
     font-weight: 200;
     font-style: italic;
-}
-
-/*extrafett Soehne*/
-@font-face {
+  }
+  
+  /* Light Soehne */
+  
+  @font-face {
     font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-extrafett.woff2");
-    font-weight: 900;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-leicht.woff2");
+    font-weight: 300;
     font-style: normal;
-}
-
-/*extrafett-kursiv Soehne*/
-@font-face {
+  }
+  
+  @font-face {
     font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-extrafett-kursiv.woff2");
-    font-weight: 900;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-leicht-kursiv.woff2");
+    font-weight: 300;
     font-style: italic;
-}
-
-/*dreiviertelfett Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-dreiviertelfett.woff2");
-    font-weight: 700;
-    font-style: normal;
-}
-
-/*dreiviertelfett-kursiv Soehne*/
-@font-face {
-    font-family: Soehne;
-    src: url("./assets/fonts/Test\ Söhne/test-soehne-dreiviertelfett-kursiv.woff2");
-    font-weight: 700;
-    font-style: italic;
-}
-
-/*buch Soehne*/
-@font-face {
+  }
+  
+  /* Regular Soehne */
+  
+  @font-face {
     font-family: Soehne;
     src: url("./assets/fonts/Test\ Söhne/test-soehne-buch.woff2");
     font-weight: 400;
     font-style: normal;
-}
-
-/*buch-kursiv Soehne*/
-@font-face {
+  }
+  
+  @font-face {
     font-family: Soehne;
     src: url("./assets/fonts/Test\ Söhne/test-soehne-buch-kursiv.woff2");
     font-weight: 400;
     font-style: italic;
-}
-
-/* Global Styles */
-
-*{
+  }
+  
+  /* Medium Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-kraftig.woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-kraftig-kursiv.woff2");
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  /* Semi-Bold Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-halbfett.woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-halbfett-kursiv.woff2");
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  /* Bold Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-dreiviertelfett.woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-dreiviertelfett-kursiv.woff2");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* ExtraBold Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-fett.woff2");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-fett-kursiv.woff2");
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  /* Black Soehne */
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-extrafett.woff2");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Soehne;
+    src: url("./assets/fonts/Test\ Söhne/test-soehne-extrafett-kursiv.woff2");
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  /* Global styles */
+  
+  * {
     box-sizing: border-box;
     margin: 0;
     border: none;
-}
-
-body{
-    background-color: black;
-}
-
-ul{
+  }
+  
+  ul {
     list-style-type: none;
     padding-left: 0;
     margin-block-start: 0;
     margin-block-end: 0;
-}
-
-/* Header Style */
-
-header{
-    display: flex;
+  }
+  
+  body {
+    background-color: #000000;
+  }
+  
+  /* Header */
+  
+  header {
     height: 80px;
-    background-color: black;
-    color: #ffff;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
     align-items: center;
     padding: 22px;
     position: fixed;
     width: 100%;
     z-index: 10;
-}
-.imageWrapper{
+  }
+  
+  .imageWrapper {
     margin-right: 200px;
-}
-.imageWrapper img{
+  }
+  
+  .imageWrapper img {
     width: 118px;
     height: 32px;
-}
-
-nav ul{
+  }
+  
+  nav ul {
     display: flex;
-}
-
-header button{
-    position: absolute;
-    right: 24px;
-    background-color: transparent;
-    color: #ffff;
-    font-family: Soehne;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-header button:hover{
-    text-decoration: underline;
-}
-
-nav ul li{
+  }
+  
+  nav ul li {
     margin-right: 35px;
     font-family: Soehne;
     font-size: 18px;
     cursor: pointer;
-}
-
-nav ul li:hover{
+  }
+  
+  nav ul li:hover {
     text-decoration: underline;
-}
-
-
-/* Main section */
-
-.mainScreen{
+  }
+  
+  header button {
+    position: absolute;
+    right: 24px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Soehne;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  header button:last-of-type {
+    display: none;
+  }
+  
+  header button:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header nav,
+    header button:first-of-type {
+      display: none;
+    }
+  }
+  
+  /* Main Section */
+  
+  .mainScreen {
     height: 100vh;
-}
-
-.mainScreen video{
-    height: 100%;
+  }
+  
+  .mainScreen video {
     width: 100%;
+    height: 100%;
     object-fit: cover;
-}
-
-.overlay{
+  }
+  
+  .overlay {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
-
-
     background-color: #00000080;
-}
-
-.mainText{
+  }
+  
+  .mainText {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0px;
+    left: 0px;
     padding: 50px 250px 50px 350px;
-}
-
-.mainText h1{
-    color: white;
+  }
+  
+  .mainText h1 {
+    color: #ffffff;
     font-family: Soehne;
     font-size: 73px;
-    font-weight:400 ;
+    font-weight: 400;
     line-height: 73px;
     margin-bottom: 70px;
-}
-
-.mainText a{
+  }
+  
+  .mainText a {
     font-family: Soehne;
     font-size: 18px;
     text-decoration: none;
-    color: #ffff;
+    color: #ffffff;
     padding: 5px 10px;
-}
-
-.mainText h1 + a{
-    border: 1px solid #ffff;
-}
-
-.mainText h1 + a:hover{
-   background-color: #ffff;
-   color: black;
-}
-
-.mainText a:last-child{
+  }
+  
+  .mainText h1 + a {
+    border: 1px solid white;
+  }
+  
+  .mainText h1 + a:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .mainText a:last-child {
     text-decoration: underline;
-}
-
-.mainText a:last-child:hover{
-    text-decoration-color: #ffffffc4;
-}
-
-/* Featured Section */
-.featured{
-    background-color: black;
+  }
+  
+  .mainText a:last-child:hover {
+    text-decoration-color: #ffffff80;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .mainText {
+      padding: 20px 10px;
+    }
+  
+    .mainText h1 {
+      font-size: 55px;
+      line-height: 1.2em;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .mainText {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .mainText h1 {
+      font-size: 42px;
+      line-height: 1.1em;
+    }
+  }
+  
+  /* Featured Section */
+  
+  .featured {
+    background-color: #000000;
     padding: 50px 20px 100px;
-}
-
-.featured div{
+  }
+  
+  .featured div {
     display: flex;
-}
-
-.featured .item{
+  }
+  
+  .featured .item {
     width: 25%;
-    color: #ffff;
+    color: #ffffff;
     font-family: Soehne;
     padding-right: 100px;
     text-decoration: none;
-}
-
-.featured .item:hover p {
-    text-decoration-color: #ffffffc4;
-}
-
-
-.featured h3{
+  }
+  
+  .featured .item:hover p {
+    text-decoration-color: #ffffff44;
+  }
+  
+  .featured h3 {
     font-size: 28px;
     margin-bottom: 10px;
-}
-
-.featured p{
+  }
+  
+  .featured p {
     font-size: 18px;
     text-decoration: underline;
-}
-
-.divider{
+  }
+  
+  .divider {
     margin: 0 20px;
-    border: 1px solid #ffff;
-}
-
-/* ChatGPT section */
-
-.chatGpt{
-    background-color: black;
-    color: #ffff;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .divider.ghost {
+    border-bottom: 1px solid #ffffff66;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .featured div {
+      flex-wrap: wrap;
+    }
+  
+    .featured .item {
+      width: 50%;
+      padding-right: 20px;
+      padding-bottom: 30px;
+    }
+  
+    .featured h3 {
+      font-size: 24px;
+    }
+  
+    .featured p {
+      font-size: 16px;
+    }
+  
+    .featured {
+      padding-bottom: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .featured .item {
+      width: 100%;
+    }
+  
+    .featured h3 {
+      font-size: 21px;
+    }
+  }
+  
+  /* chatGpt Section */
+  
+  .chatGpt {
+    background-color: #000000;
+    color: #ffffff;
     display: flex;
-    padding: 20px;
-}
-
-.chatGpt img{
+    padding: 20px 20px 100px;
+  }
+  
+  .chatGpt img {
     width: 50%;
-}
-
-.chatGpt h2{
+  }
+  
+  .chatGpt .textWrapper {
+    padding: 0px 20px;
+  }
+  
+  .chatGpt h2 {
     font-size: 48px;
     font-family: Signifier;
     font-weight: 400;
-}
-
-.chatGpt p{
+    margin-bottom: 10px;
+  }
+  
+  .chatGpt p {
     font-size: 18px;
     font-family: Soehne;
-}
+    margin-bottom: 20px;
+  }
+  
+  .chatGpt .anchorWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatGpt a {
+    font-size: 18px;
+    font-family: Soehne;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .chatGpt a:hover {
+    text-decoration-color: #ffffff55;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .chatGpt h2 {
+      font-size: 36px;
+    }
+  
+    .chatGpt p,
+    .chatGpt a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .chatGpt {
+      flex-direction: column-reverse;
+      padding-bottom: 60px;
+    }
+  
+    .chatGpt img {
+      width: 100%;
+    }
+  
+    .chatGpt .textWrapper {
+      padding: 0px;
+      margin-bottom: 20px;
+    }
+  
+    .chatGpt h2 {
+      font-size: 28px;
+    }
+  }
+  
+  /* Updates Section */
+  
+  .updateSection {
+    color: #ffffff;
+    padding: 10px 20px 100px;
+  }
+  
+  .updateSection .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .updateSection .header h2 {
+    font-size: 48px;
+    font-family: Signifier;
+    font-weight: 400;
+  }
+  
+  .updateSection .header button {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: Soehne;
+  }
+  
+  .updateSection .header button:hover {
+    text-decoration: none;
+  }
+  
+  .updateSection .itemWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .updateSection .itemWrapper img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .updateSection .itemWrapper .item {
+    width: 24%;
+    text-decoration: none;
+  }
+  
+  .updateSection .itemWrapper .item:hover h3 {
+    text-decoration: underline;
+  }
+  
+  .updateSection .item h3 {
+    font-size: 18px;
+    font-family: Soehne;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .updateSection .item p {
+    font-size: 18px;
+    font-family: Soehne;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .updateSection .itemWrapper {
+      flex-wrap: wrap;
+    }
+  
+    .updateSection .itemWrapper .item {
+      width: 49%;
+      padding-bottom: 50px;
+    }
+  
+    .updateSection .item h3,
+    .updateSection .item p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  
+    .updateSection {
+      padding-bottom: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .updateSection .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .updateSection .header h2 {
+      font-size: 28px;
+    }
+  
+    .updateSection .header button {
+      padding: 0;
+    }
+  
+    .updateSection .itemWrapper .item {
+      width: 100%;
+    }
+  }
+  
+  /* Safety Section */
+  
+  .safety {
+    color: #ffffff;
+  }
+  
+  .safety .textWrapper {
+    padding: 10px 20px;
+    display: flex;
+    margin-bottom: 100px;
+  }
+  
+  .safety .textWrapper div {
+    width: 50%;
+  }
+  
+  .safety .textWrapper h2 {
+    width: 50%;
+    font-size: 48px;
+    font-family: Signifier;
+    font-weight: 400;
+  }
+  
+  .safety .textWrapper p {
+    font-size: 28px;
+    font-family: Soehne;
+    margin-bottom: 20px;
+  }
+  
+  .safety .textWrapper a {
+    font-size: 18px;
+    font-family: Soehne;
+    color: white;
+  }
+  
+  .safety img {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .safety .textWrapper h2 {
+      font-size: 36px;
+      padding-right: 50px;
+    }
+  
+    .safety .textWrapper p {
+      font-size: 24px;
+    }
+  
+    .safety .textWrapper a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .safety .textWrapper {
+      flex-direction: column;
+    }
+  
+    .safety .textWrapper div,
+    .safety .textWrapper h2 {
+      width: 100%;
+    }
+  
+    .safety .textWrapper h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  
+    .safety .textWrapper p {
+      font-size: 21px;
+    }
+  }
+  
+  /* Research Section */
+  
+  .research {
+    color: #ffffff;
+    padding: 10px 20px 100px;
+  }
+  
+  .research .textWrapper {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  
+  .research .textWrapper div {
+    width: 50%;
+  }
+  
+  .research .textWrapper h2 {
+    width: 50%;
+    font-size: 48px;
+    font-family: Signifier;
+    font-weight: 400;
+  }
+  
+  .research .textWrapper p {
+    font-size: 28px;
+    font-family: Soehne;
+    margin-bottom: 20px;
+  }
+  
+  .research .textWrapper a {
+    font-size: 18px;
+    font-family: Soehne;
+    color: white;
+  }
+  
+  .research .itemWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .research .itemWrapper img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .research .itemWrapper .item {
+    width: 24%;
+    text-decoration: none;
+  }
+  
+  .research .itemWrapper .item:hover h3 {
+    text-decoration: underline;
+  }
+  
+  .research .item h3 {
+    font-size: 18px;
+    font-family: Soehne;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .research .item p {
+    font-size: 18px;
+    font-family: Soehne;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .research .itemWrapper {
+      flex-wrap: wrap;
+    }
+  
+    .research .itemWrapper .item {
+      width: 49%;
+      margin-bottom: 50px;
+    }
+  
+    .research .textWrapper h2 {
+      font-size: 36px;
+    }
+  
+    .research .textWrapper p {
+      font-size: 24px;
+    }
+  
+    .research .textWrapper a {
+      font-size: 16px;
+    }
+  
+    .research {
+      padding-bottom: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .research .textWrapper {
+      flex-direction: column;
+    }
+  
+    .research .textWrapper div,
+    .research .textWrapper h2 {
+      width: 100%;
+    }
+  
+    .research .textWrapper h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  
+    .research .textWrapper p {
+      font-size: 21px;
+    }
+  
+    .research .itemWrapper .item {
+      width: 100%;
+    }
+  }
+  
+  /* Products Section */
+  
+  .product {
+    color: #ffffff;
+    padding: 10px 20px 100px;
+  }
+  
+  .product .textWrapper {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  
+  .product .textWrapper div {
+    width: 50%;
+  }
+  
+  .product .textWrapper h2 {
+    width: 50%;
+    font-size: 48px;
+    font-family: Signifier;
+    font-weight: 400;
+  }
+  
+  .product .textWrapper p {
+    font-size: 28px;
+    font-family: Soehne;
+    margin-bottom: 20px;
+  }
+  
+  .product .textWrapper a {
+    font-size: 18px;
+    font-family: Soehne;
+    color: white;
+  }
+  
+  .product .itemWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product .itemWrapper img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .product .itemWrapper .item {
+    width: 24%;
+    text-decoration: none;
+  }
+  
+  .product .itemWrapper .item:hover h3 {
+    text-decoration: underline;
+  }
+  
+  .product .item h3 {
+    font-size: 18px;
+    font-family: Soehne;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .product .item p {
+    font-size: 18px;
+    font-family: Soehne;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .product .itemWrapper {
+      flex-wrap: wrap;
+    }
+  
+    .product .itemWrapper .item {
+      width: 49%;
+      margin-bottom: 50px;
+    }
+  
+    .product .textWrapper h2 {
+      font-size: 36px;
+    }
+  
+    .product .textWrapper p {
+      font-size: 24px;
+    }
+  
+    .product .textWrapper a {
+      font-size: 16px;
+    }
+  
+    .product {
+      padding-bottom: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .product .textWrapper {
+      flex-direction: column;
+    }
+  
+    .product .textWrapper div,
+    .product .textWrapper h2 {
+      width: 100%;
+    }
+  
+    .product .textWrapper h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  
+    .product .textWrapper p {
+      font-size: 21px;
+    }
+  
+    .product .itemWrapper .item {
+      width: 100%;
+    }
+  }
+  
+  /* Careers Section */
+  
+  .careers {
+    color: #ffffff;
+  }
+  
+  .careers .textWrapper {
+    padding: 10px 20px;
+    display: flex;
+    margin-bottom: 100px;
+  }
+  
+  .careers .textWrapper div {
+    width: 50%;
+  }
+  
+  .careers .textWrapper h2 {
+    width: 50%;
+    font-size: 48px;
+    font-family: Signifier;
+    font-weight: 400;
+  }
+  
+  .careers .textWrapper p {
+    font-size: 28px;
+    font-family: Soehne;
+    margin-bottom: 20px;
+  }
+  
+  .careers .textWrapper a {
+    font-size: 18px;
+    font-family: Soehne;
+    color: white;
+  }
+  
+  .careers img {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .careers .textWrapper h2 {
+      font-size: 36px;
+    }
+  
+    .careers .textWrapper p {
+      font-size: 24px;
+    }
+  
+    .careers .textWrapper a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .careers .textWrapper {
+      flex-direction: column;
+    }
+  
+    .careers .textWrapper div,
+    .careers .textWrapper h2 {
+      width: 100%;
+    }
+  
+    .careers .textWrapper h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  
+    .careers .textWrapper p {
+      font-size: 21px;
+    }
+  }
+  
+  /* Lilian quote */
+  .lilian {
+    color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 20px 100px;
+  }
+  
+  .lilian .quote {
+    width: 50%;
+  }
+  
+  .lilian q {
+    font-size: 55px;
+    font-family: Signifier;
+    display: block;
+    padding-right: 10px;
+  }
+  
+  .lilian p {
+    font-size: 18px;
+    font-family: Soehne;
+  }
+  
+  .lilian p:first-of-type {
+    font-weight: 700;
+  }
+  
+  .lilian img {
+    width: 50%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .lilian q {
+      font-size: 42px;
+      line-height: 1.1em;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .lilian {
+      flex-direction: column-reverse;
+    }
+  
+    .lilian .quote,
+    .lilian img {
+      width: 100%;
+    }
+  
+    .lilian img {
+      margin-bottom: 30px;
+    }
+  
+    .lilian q {
+      font-size: 32px;
+      line-height: 1.2em;
+    }
+  }
+  
+  /* Join Us Section */
+  
+  .joinUs {
+    color: #ffffff;
+    padding: 0 20px 150px;
+  }
+  
+  .joinUs h2 {
+    font-size: 73px;
+    font-family: Signifier;
+    font-weight: 400;
+    margin-bottom: 100px;
+  }
+  
+  .joinUs a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #ffffff;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: Soehne;
+  }
+  
+  .joinUs a:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .joinUs h2 {
+      font-size: 55px;
+    }
+  
+    .joinUs a {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .joinUs h2 {
+      font-size: 42px;
+      margin-bottom: 50px;
+    }
+  
+    .joinUs a {
+      font-size: 21px;
+    }
+  }
+  
+  /* footer */
+  
+  footer {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Soehne;
+    padding: 0 20px;
+  }
+  
+  .footer.divider {
+    margin: 0;
+  }
+  
+  footer .navigation {
+    display: flex;
+    margin-bottom: 150px;
+  }
+  
+  footer .navigation .imageWrapper {
+    width: 20%;
+  }
+  
+  footer .navigation ul {
+    width: 20%;
+  }
+  
+  footer .navigation ul li:first-child {
+    font-weight: 700;
+  }
+  
+  footer .navigation img {
+    width: 118px;
+    height: 32px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    footer .navigation {
+      position: relative;
+    }
+  
+    footer .navigation .imageWrapper {
+      position: absolute;
+      top: -60px;
+    }
+  
+    footer .navigation ul {
+      width: 25%;
+    }
+  
+    footer {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    footer .navigation {
+      flex-wrap: wrap;
+    }
+  
+    footer .navigation ul {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .last {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .last .copyright {
+    width: 20%;
+  }
+  
+  .last .right {
+    width: 80%;
+  }
+  
+  .last .right ul {
+    display: flex;
+  }
+  
+  .last li {
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .last .copyright {
+      width: 30%;
+    }
+    .last {
+      display: flex;
+      padding: 20px 0px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .last .copyright {
+      width: 50%;
+    }
+    .last .right {
+      width: 50%;
+    }
+  
+    .last .right ul {
+      flex-direction: column;
+    }
+  }
+  
+  .gradient {
+    background-color: #ffffff;
+  }
+  
+  .gradient .item {
+    background-color: #000000;
+  }
+  
+  .gradient .item:nth-child(1) {
+    height: 23px;
+    margin-top: 0px;
+  }
+  
+  .gradient .item:nth-child(2) {
+    height: 21px;
+    margin-top: 1px;
+  }
+  
+  .gradient .item:nth-child(3) {
+    height: 19px;
+    margin-top: 2px;
+  }
+  
+  .gradient .item:nth-child(4) {
+    height: 17px;
+    margin-top: 3px;
+  }
+  
+  .gradient .item:nth-child(5) {
+    height: 15px;
+    margin-top: 4px;
+  }
+  
+  .gradient .item:nth-child(6) {
+    height: 13px;
+    margin-top: 5px;
+  }
+  
+  .gradient .item:nth-child(7) {
+    height: 11px;
+    margin-top: 6px;
+  }
+  
+  .gradient .item:nth-child(8) {
+    height: 9px;
+    margin-top: 7px;
+  }
+  
+  .gradient .item:nth-child(9) {
+    height: 7px;
+    margin-top: 8px;
+  }
+  
+  .gradient .item:nth-child(10) {
+    height: 5px;
+    margin-top: 9px;
+  }
+  
+  .gradient .item:nth-child(11) {
+    height: 3px;
+    margin-top: 10px;
+  }
+  
+  .gradient .item:nth-child(12) {
+    height: 1px;
+    margin-top: 11px;
+  }
